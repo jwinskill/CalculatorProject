@@ -7,17 +7,31 @@
 //
 
 #import "Day1ViewController.h"
+#import "Calculator.h"
 
 @interface Day1ViewController ()
+
+{
+    Calculator *calculator;
+}
+
+
 
 @end
 
 @implementation Day1ViewController
+{
+
+   
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    calculator = [Calculator new];
+    [calculator setAccumulator:0];
+    
 }
 
 - (void)didReceiveMemoryWarning

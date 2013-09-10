@@ -21,6 +21,8 @@
 		032961A517DEB63A0082029C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0329618717DEB6390082029C /* UIKit.framework */; };
 		032961AD17DEB63A0082029C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032961AB17DEB63A0082029C /* InfoPlist.strings */; };
 		032961AF17DEB63A0082029C /* CalculatorProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032961AE17DEB63A0082029C /* CalculatorProjectTests.m */; };
+		032961BA17DEB8580082029C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 032961B917DEB8580082029C /* Calculator.m */; };
+		032961BB17DEB8580082029C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 032961B917DEB8580082029C /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		032961AA17DEB63A0082029C /* CalculatorProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorProjectTests-Info.plist"; sourceTree = "<group>"; };
 		032961AC17DEB63A0082029C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		032961AE17DEB63A0082029C /* CalculatorProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorProjectTests.m; sourceTree = "<group>"; };
+		032961B817DEB8580082029C /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		032961B917DEB8580082029C /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				0329619517DEB63A0082029C /* Main.storyboard */,
 				0329619817DEB63A0082029C /* Day1ViewController.h */,
 				0329619917DEB63A0082029C /* Day1ViewController.m */,
+				032961B817DEB8580082029C /* Calculator.h */,
+				032961B917DEB8580082029C /* Calculator.m */,
 				0329619B17DEB63A0082029C /* Images.xcassets */,
 				0329618A17DEB6390082029C /* Supporting Files */,
 			);
@@ -251,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0329619017DEB63A0082029C /* main.m in Sources */,
+				032961BA17DEB8580082029C /* Calculator.m in Sources */,
 				0329619417DEB63A0082029C /* Day1AppDelegate.m in Sources */,
 				0329619A17DEB63A0082029C /* Day1ViewController.m in Sources */,
 			);
@@ -261,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				032961AF17DEB63A0082029C /* CalculatorProjectTests.m in Sources */,
+				032961BB17DEB8580082029C /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalculatorProject/CalculatorProject-Prefix.pch";
 				INFOPLIST_FILE = "CalculatorProject/CalculatorProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalculatorProject/CalculatorProject-Prefix.pch";
 				INFOPLIST_FILE = "CalculatorProject/CalculatorProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,6 +465,7 @@
 				032961B417DEB63A0082029C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		032961B517DEB63A0082029C /* Build configuration list for PBXNativeTarget "CalculatorProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +474,7 @@
 				032961B717DEB63A0082029C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
